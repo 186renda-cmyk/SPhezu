@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://sphezu.top/</loc>
-    <lastmod>2026-01-04</lastmod>
+    <lastmod>2026-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,20 +11,28 @@
   <!-- Blog Posts -->
   <url>
     <loc>https://sphezu.top/blog/spotify-free-vs-premium.html</loc>
-    <lastmod>2026-01-04</lastmod>
+    <lastmod>2026-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sphezu.top/blog/spotify-premium-pricing-guide.html</loc>
-    <lastmod>2026-01-04</lastmod>
+    <lastmod>2026-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sphezu.top/blog/is-spotify-premium-worth-it.html</loc>
-    <lastmod>2026-01-04</lastmod>
+    <lastmod>2026-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://sphezu.top/privacy.html</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

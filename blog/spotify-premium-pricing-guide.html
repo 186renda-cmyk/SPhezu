@@ -291,7 +291,7 @@
             <h4 class="text-white font-bold mb-4">相关阅读</h4>
             <a href="spotify-free-vs-premium.html" class="flex gap-4 group">
               <div class="w-16 h-16 rounded-lg overflow-hidden shrink-0">
-                 <img src="https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=200&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition">
+                 <img src="https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=200&auto=format&fit=crop" alt="Spotify Free vs Premium Thumbnail" class="w-full h-full object-cover group-hover:scale-110 transition">
               </div>
               <div>
                 <h5 class="text-sm text-gray-300 font-bold leading-tight mb-1 group-hover:text-sp-green transition">Spotify会员和免费版到底有什么区别？</h5>
@@ -301,7 +301,7 @@
 
             <a href="is-spotify-premium-worth-it.html" class="flex gap-4 group">
               <div class="w-16 h-16 rounded-lg overflow-hidden shrink-0">
-                 <img src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=200&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition">
+                 <img src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=200&auto=format&fit=crop" alt="Is Spotify Worth It Thumbnail" class="w-full h-full object-cover group-hover:scale-110 transition">
               </div>
               <div>
                 <h5 class="text-sm text-gray-300 font-bold leading-tight mb-1 group-hover:text-sp-green transition">Spotify会员到底值不值得买？</h5>
@@ -317,55 +317,47 @@
   </main>
 
   <!-- Footer -->
-  <footer class="bg-[#050505] border-t border-white/5 pt-16 pb-8">
-    <div class="max-w-7xl mx-auto px-4">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-        <div class="col-span-1 md:col-span-1">
-          <a href="../index.html" class="flex items-center gap-2 mb-6 group w-fit">
-            <div class="w-8 h-8 rounded-lg bg-[#1ED760] flex items-center justify-center text-black shadow-lg group-hover:scale-105 transition">
-              <i class="fa-solid fa-compact-disc text-xl animate-spin-slow"></i>
+  <footer class="bg-black py-12 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <div class="col-span-1 md:col-span-1">
+                <span class="text-2xl font-bold text-white mb-4 block">SPhezu</span>
+                <p class="text-gray-500 text-sm">专业的数字订阅合租平台，致力于以最低的价格提供最优质的流媒体体验。</p>
             </div>
-            <div class="flex items-center">
-              <span class="font-sans text-xl font-black tracking-tighter text-white">SPhezu</span>
-              <span class="w-1.5 h-1.5 rounded-full bg-sp-green mx-1 mt-1"></span>
-              <span class="font-mono text-sm font-bold text-sp-green mt-0.5 opacity-90 group-hover:opacity-100 transition">TOP</span>
+            
+            <div>
+                <h4 class="text-white font-bold mb-4">快速导航</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="../index.html#pricing" class="hover:text-[#1DB954] transition">购买会员</a></li>
+                    <li><a href="../index.html#faq" class="hover:text-[#1DB954] transition">常见问题</a></li>
+                    <li><a href="../index.html#reviews" class="hover:text-[#1DB954] transition">用户评价</a></li>
+                </ul>
             </div>
-          </a>
-          <p class="text-gray-500 text-sm leading-relaxed mb-6">
-            国内专业的 Spotify Premium 合租导航平台。精选优质低价区服务商，解锁无损音质。
-          </p>
+
+            <div>
+                <h4 class="text-white font-bold mb-4">法律与政策</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="../privacy.html" class="hover:text-[#1DB954] transition">隐私政策 (Privacy Policy)</a></li>
+                    <li><a href="../terms.html" class="hover:text-[#1DB954] transition">服务条款 (Terms)</a></li>
+                    <li><a href="../refund.html" class="hover:text-[#1DB954] transition">退款政策 (Refund)</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-4">联系我们</h4>
+                <p class="text-gray-400 text-sm mb-2">订单问题请联系客服：</p>
+                <a href="mailto:support@sphezu.top" class="text-[#1DB954] hover:underline">support@sphezu.top</a>
+                <div class="mt-4 flex gap-4 text-gray-400">
+                    <i class="fa-brands fa-telegram hover:text-white cursor-pointer text-xl"></i>
+                    <i class="fa-solid fa-envelope hover:text-white cursor-pointer text-xl"></i>
+                </div>
+            </div>
         </div>
-        <div>
-          <h4 class="text-white font-bold mb-6">推荐平台</h4>
-          <ul class="space-y-3 text-sm text-gray-500">
-            <li><a href="../index.html#pricing" class="hover:text-green-500 transition">飞行派 (主推)</a></li>
-            <li><a href="../index.html#pricing" class="hover:text-green-500 transition">星际放映厅</a></li>
-            <li><a href="../index.html#pricing" class="hover:text-green-500 transition">奈飞小铺</a></li>
-          </ul>
+        
+        <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-600">
+            <p>&copy; 2026 SPhezu.TOP. All rights reserved.</p>
+            <p>本站与 Spotify 官方无直接关联，仅提供合租拼车服务。</p>
         </div>
-        <div>
-          <h4 class="text-white font-bold mb-6">更多资源</h4>
-          <ul class="space-y-3 text-sm text-gray-500">
-            <li><a href="spotify-free-vs-premium.html" class="hover:text-green-500 transition">会员对比指南</a></li>
-            <li><a href="spotify-premium-pricing-guide.html" class="hover:text-green-500 transition text-green-500">会员价格详解</a></li>
-            <li><a href="../index.html#faq" class="hover:text-white transition">常见问题</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="text-white font-bold mb-6">安全支付</h4>
-          <div class="flex flex-wrap gap-3 text-2xl text-gray-600">
-            <i class="fa-brands fa-alipay hover:text-[#1677FF] transition"></i>
-            <i class="fa-brands fa-weixin hover:text-[#09B83E] transition"></i>
-          </div>
-        </div>
-      </div>
-      <div class="h-px w-full bg-white/5 mb-8"></div>
-      <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-600">
-        <p>&copy; 2026 SPhezu.TOP. All rights reserved.</p>
-        <p class="max-w-xl text-center md:text-right">
-          <strong>免责声明：</strong> SPhezu.top 仅为第三方流媒体服务导购平台，不直接提供音频内容或订阅服务。
-        </p>
-      </div>
     </div>
   </footer>
 
