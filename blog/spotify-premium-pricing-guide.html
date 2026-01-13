@@ -109,14 +109,25 @@
 
   <!-- Breadcrumb -->
   <div class="pt-28 pb-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <nav class="text-sm text-gray-400" aria-label="Breadcrumb">
+    <nav class="text-sm text-gray-400" aria-label="Breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
       <ol class="list-none p-0 inline-flex">
-        <li class="flex items-center">
-          <a href="../index.html" class="hover:text-white transition">首页</a>
+        <li class="flex items-center" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html" class="hover:text-white transition" itemprop="item">
+            <span itemprop="name">首页</span>
+          </a>
+          <meta itemprop="position" content="1" />
           <i class="fa-solid fa-chevron-right text-xs mx-3 text-gray-600"></i>
         </li>
-        <li class="flex items-center">
-          <span class="text-gray-200" aria-current="page">Spotify会员价格详解</span>
+        <li class="flex items-center" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="index.html" class="hover:text-white transition" itemprop="item">
+            <span itemprop="name">音乐指南</span>
+          </a>
+          <meta itemprop="position" content="2" />
+          <i class="fa-solid fa-chevron-right text-xs mx-3 text-gray-600"></i>
+        </li>
+        <li class="flex items-center" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span class="text-gray-200" aria-current="page" itemprop="name">Spotify会员价格详解</span>
+          <meta itemprop="position" content="3" />
         </li>
       </ol>
     </nav>
