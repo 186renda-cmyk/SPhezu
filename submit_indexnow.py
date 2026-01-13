@@ -17,7 +17,10 @@ URL_LIST = [
     f"https://{HOST}/privacy.html",
     f"https://{HOST}/blog/spotify-free-vs-premium.html",
     f"https://{HOST}/blog/spotify-premium-pricing-guide.html",
-    f"https://{HOST}/blog/is-spotify-premium-worth-it.html"
+    f"https://{HOST}/blog/is-spotify-premium-worth-it.html",
+    f"https://{HOST}/blog/how-to-use-spotify-for-free.html",
+    f"https://{HOST}/blog/spotify-vs-apple-music.html",
+    f"https://{HOST}/blog/how-to-download-spotify-music.html"
 ]
 # ===========================================
 
