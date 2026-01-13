@@ -1,8 +1,11 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="512" height="512" rx="120" fill="#0f0f0f"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: Rounded Square #1ED760 -->
+  <rect x="0" y="0" width="512" height="512" rx="100" fill="#1ED760"/>
   
-  <path d="M0 120C0 53.7258 53.7258 0 120 0H392C458.274 0 512 53.7258 512 120V140H0V120Z" fill="white" fill-opacity="0.05"/>
-
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M256 130C195.249 130 146 179.249 146 240H196C196 206.863 222.863 180 256 180C289.137 180 316 206.863 316 240C316 273.137 289.137 300 256 300H186C147.34 300 116 331.34 116 370C116 408.66 147.34 440 186 440H366V390H186C174.954 390 166 381.046 166 370C166 358.954 174.954 350 186 350H256C316.751 350 366 300.751 366 240C366 179.249 316.751 130 256 130ZM326 240H366C366 260.865 360.201 280.403 350.152 296.848L326 240Z" fill="#1ED760"/>
-  <path d="M256 130C300 130 338 155 356 190L312 215C302 195 280 180 256 180C222 180 196 206 196 240H146C146 180 195 130 256 130Z" fill="#1ED760"/>
+  <!-- Icon: Compact Disc (simplified) - Black -->
+  <circle cx="256" cy="256" r="180" fill="black"/>
+  <circle cx="256" cy="256" r="60" fill="#1ED760"/>
+  
+  <!-- sheen/reflection detail to look like CD -->
+  <path d="M256 136 A 120 120 0 0 1 376 256" stroke="#333" stroke-width="20" fill="none" opacity="0.5"/>
 </svg>
