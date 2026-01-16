@@ -13,14 +13,14 @@ KEY_LOCATION = f"https://{HOST}/{KEY}.txt"
 # 我们自动包含了首页、隐私页以及 blog 目录下的所有文章
 URL_LIST = [
     f"https://{HOST}/",
-    f"https://{HOST}/index.html",
-    f"https://{HOST}/privacy.html",
-    f"https://{HOST}/blog/spotify-free-vs-premium.html",
-    f"https://{HOST}/blog/spotify-premium-pricing-guide.html",
-    f"https://{HOST}/blog/is-spotify-premium-worth-it.html",
-    f"https://{HOST}/blog/how-to-use-spotify-for-free.html",
-    f"https://{HOST}/blog/spotify-vs-apple-music.html",
-    f"https://{HOST}/blog/how-to-download-spotify-music.html"
+    f"https://{HOST}/blog/",
+    f"https://{HOST}/privacy",
+    f"https://{HOST}/blog/spotify-free-vs-premium",
+    f"https://{HOST}/blog/spotify-premium-pricing-guide",
+    f"https://{HOST}/blog/is-spotify-premium-worth-it",
+    f"https://{HOST}/blog/how-to-use-spotify-for-free",
+    f"https://{HOST}/blog/spotify-vs-apple-music",
+    f"https://{HOST}/blog/how-to-download-spotify-music"
 ]
 # ===========================================
 
